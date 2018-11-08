@@ -1,0 +1,237 @@
+"age","drug","use","frequency"
+
+
+
+"12","marijuana",1.1,4.0  
+"13","marijuana",3.4,15.0
+"14","marijuana",8.7,24.0
+"15","marijuana",14.5,25.0
+"16","marijuana",22.5,30.0
+"17","marijuana",28.0,36.0
+"18","marijuana",33.7,52.0
+"19","marijuana",33.4,60.0
+"20","marijuana",34.0,60.0
+"21","marijuana",33.0,52.0
+"22 - 23","marijuana",28.4,52.0
+"24 - 25","marijuana",24.9,60.0
+"26 - 29","marijuana",20.8,52.0
+"30 - 34","marijuana",16.4,72.0
+"35 - 49","marijuana",10.4,48.0
+"50 - 64","marijuana",7.3,52.0
+"65+","marijuana",1.2,36.0
+
+"12","cocaine",0.1,5.0
+"13","cocaine",0.1,1.0
+"14","cocaine",0.1,5.5
+"15","cocaine",0.5,4.0
+"16","cocaine",1.0,7.0
+"17","cocaine",2.0,5.0
+"18","cocaine",3.2,5.0
+"19","cocaine",4.1,5.5
+"20","cocaine",4.9,8.0
+"21","cocaine",4.8,5.0
+"22 - 23","cocaine",4.5,5.0
+"24 - 25","cocaine",4.0,6.0
+"26 - 29","cocaine",3.2,5.0
+"30 - 34","cocaine",2.1,8.0
+"35 - 49","cocaine",1.5,15.0
+"50 - 64","cocaine",0.9,36.0
+"65+","cocaine",0.0,"null"
+
+"12","crack",0.0,"null"
+"13","crack",0.0,3.0
+"14","crack",0.0,"null"},
+"15","crack",0.1,9.5
+"16","crack",0.0,1.0
+"17","crack",0.1,21.0
+"18","crack",0.4,10.0
+"19","crack",0.5,2.0
+"20","crack",0.6,5.0
+"21","crack",0.5,17.0
+"22 - 23","crack",0.5,5.0
+"24 - 25","crack",0.5,6.0
+"26 - 29","crack",0.4,6.0
+"30 - 34","crack",0.5,15.0
+"35 - 49","crack",0.5,48.0
+"50 - 64","crack",0.4,62.0
+"65+","crack",0.0,"null"
+
+"12","heroin",0.1,35.5
+"13","heroin",0.0,"null"
+"14","heroin",0.1,2.0
+"15","heroin",0.2,1.0
+"16","heroin",0.1,66.5
+"17","heroin",0.1,64.0
+"18","heroin",0.4,46.0
+"19","heroin",0.5,180.0
+"20","heroin",0.9,45.0
+"21","heroin",0.6,30.0
+"22 - 23","heroin",1.1,57.5
+"24 - 25","heroin",0.7,88.0
+"26 - 29","heroin",0.6,50.0
+"30 - 34","heroin",0.4,66.0
+"35 - 49","heroin",0.1,280.0
+"50 - 64","heroin",0.1,41.0
+"65+","heroin",0.0,120.0
+
+"12","hallucinogen",0.2,52.0
+"13","hallucinogen",0.6,6.0
+"14","hallucinogen",1.6,3.0
+"15","hallucinogen",2.1,4.0
+"16","hallucinogen",3.4,3.0
+"17","hallucinogen",4.8,3.0
+"18","hallucinogen",7.0,4.0
+"19","hallucinogen",8.6,3.0
+"20","hallucinogen",7.4,2.0
+"21","hallucinogen",6.3,4.0
+"22 - 23","hallucinogen",5.2,3.0
+"24 - 25","hallucinogen",4.5,2.0
+"26 - 29","hallucinogen",3.2,3.0
+"30 - 34","hallucinogen",1.8,2.0
+"35 - 49","hallucinogen",0.6,3.0
+"50 - 64","hallucinogen",0.3,44.0
+"65+","hallucinogen",0.1,2.0
+
+"12","inhalant",1.6,19.0
+"13","inhalant",2.5,12.0
+"14","inhalant",2.6,5.0
+"15","inhalant",2.5,5.5
+"16","inhalant",3.0,3.0
+"17","inhalant",2.0,4.0
+"18","inhalant",1.8,4.0
+"19","inhalant",1.4,3.0
+"20","inhalant",1.5,4.0
+"21","inhalant",1.4,2.0
+"22 - 23","inhalant",1.0,4.0
+"24 - 25","inhalant",0.8,2.0
+"26 - 29","inhalant",0.6,4.0
+"30 - 34","inhalant",0.4,3.5
+"35 - 49","inhalant",0.3,10.0
+"50 - 64","inhalant",0.2,13.5
+"65+","inhalant",0.0,"null"
+
+"12","pain-reliever",2.0,36.0
+"13","pain-reliever",2.4,14.0
+"14","pain-reliever",3.9,12.0
+"15","pain-reliever",5.5,10.0
+"16","pain-reliever",6.2,7.0
+"17","pain-reliever",8.5,9.0
+"18","pain-reliever",9.2,12.0
+"19","pain-reliever",9.4,12.0
+"20","pain-reliever",10.0,10.0
+"21","pain-reliever",9.0,15.0
+"22 - 23","pain-reliever",10.0,15.0
+"24 - 25","pain-reliever",9.0,15.0
+"26 - 29","pain-reliever",8.3,13.0
+"30 - 34","pain-reliever",5.9,22.0
+"35 - 49","pain-reliever",4.2,12.0
+"50 - 64","pain-reliever",2.5,12.0
+"65+","pain-reliever",0.6,24.0
+
+"12","oxycontin",0.1,24.5
+"13","oxycontin",0.1,41.0
+"14","oxycontin",0.4,4.5
+"15","oxycontin",0.8,3.0
+"16","oxycontin",1.1,4.0
+"17","oxycontin",1.4,6.0
+"18","oxycontin",1.7,7.0
+"19","oxycontin",1.5,7.5
+"20","oxycontin",1.7,12.0
+"21","oxycontin",1.3,13.5
+"22 - 23","oxycontin",1.7,17.5
+"24 - 25","oxycontin",1.3,20.0
+"26 - 29","oxycontin",1.2,13.5
+"30 - 34","oxycontin",0.9,46.0
+"35 - 49","oxycontin",0.3,12.0
+"50 - 64","oxycontin",0.4,5.0
+"65+","oxycontin",0.0,"null"
+
+"12","tranquilizer",0.2,52.0
+"13","tranquilizer",0.3,25.5
+"14","tranquilizer",0.9,5.0
+"15","tranquilizer",2.0,4.5
+"16","tranquilizer",2.4,11.0
+"17","tranquilizer",3.5,7.0
+"18","tranquilizer",4.9,12.0
+"19","tranquilizer",4.2,4.5
+"20","tranquilizer",5.4,10.0
+"21","tranquilizer",3.9,7.0
+"22 - 23","tranquilizer",4.4,12.0
+"24 - 25","tranquilizer",4.3,10.0
+"26 - 29","tranquilizer",4.2,10.0
+"30 - 34","tranquilizer",3.6,8.0
+"35 - 49","tranquilizer",1.9,6.0
+"50 - 64","tranquilizer",1.4,10.0
+"65+","tranquilizer",0.2,5.0
+
+"12","stimulant",0.2,2.0
+"13","stimulant",0.3,4.0
+"14","stimulant",0.8,12.0
+"15","stimulant",1.5,6.0
+"16","stimulant",1.8,9.5
+"17","stimulant",2.8,9.0
+"18","stimulant",3.0,8.0
+"19","stimulant",3.3,6.0
+"20","stimulant",4.0,12.0
+"21","stimulant",4.1,10.0
+"22 - 23","stimulant",3.6,10.0
+"24 - 25","stimulant",2.6,10.0
+"26 - 29","stimulant",2.3,7.0
+"30 - 34","stimulant",1.4,12.0
+"35 - 49","stimulant",0.6,24.0
+"50 - 64","stimulant",0.3,24.0
+"65+","stimulant",0.0,364.0
+
+"12","meth",0.0,"null"
+"13","meth",0.1,5.0
+"14","meth",0.1,24.0
+"15","meth",0.3,10.5
+"16","meth",0.3,36.0
+"17","meth",0.6,48.0
+"18","meth",0.5,12.0
+"19","meth",0.4,105.0
+"20","meth",0.9,12.0
+"21","meth",0.6,2.0
+"22 - 23","meth",0.6,46.0
+"24 - 25","meth",0.7,21.0
+"26 - 29","meth",0.6,30.0
+"30 - 34","meth",0.4,54.0
+"35 - 49","meth",0.2,104.0
+"50 - 64","meth",0.2,30.0
+"65+","meth",0.0,"null"
+
+"12","sedative",0.2,13.0
+"13","sedative",0.1,19.0
+"14","sedative",0.2,16.5
+"15","sedative",0.4,30.0
+"16","sedative",0.2,3.0
+"17","sedative",0.5,6.5
+"18","sedative",0.4,10.0
+"19","sedative",0.3,6.0
+"20","sedative",0.5,4.0
+"21","sedative",0.3,9.0
+"22 - 23","sedative",0.2,52.0
+"24 - 25","sedative",0.2,17.5
+"26 - 29","sedative",0.4,4.0
+"30 - 34","sedative",0.4,10.0
+"35 - 49","sedative",0.3,10.0
+"50 - 64","sedative",0.2,104.0
+"65+","sedative",0.0,15.0
+
+"12","alcohol",3.9,3.0  
+"13","alcohol",8.5,6.0  
+"14","alcohol",18.1,5.0  
+"15","alcohol",29.2,6.0  
+"16","alcohol",40.1,10.0  
+"17","alcohol",49.3,13.0  
+"18","alcohol",58.7,24.0  
+"19","alcohol",64.6,36.0  
+"20","alcohol",69.7,48.0  
+"21","alcohol",83.2,52.0  
+"22 - 23","alcohol",84.2,52.0  
+"24 - 25","alcohol",83.1,52.0  
+"26 - 29","alcohol",80.7,52.0  
+"30 - 34","alcohol",77.5,52.0  
+"35 - 49","alcohol",75.0,52.0  
+"50 - 64","alcohol",67.2,52.0  
+"65+","alcohol",49.3,52.0  

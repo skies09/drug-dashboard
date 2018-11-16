@@ -5,32 +5,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Drug and Alcohol Use</title>
-
-
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/dc.min.css" />
-
-
+    <title>Drug and Alcohol Use</title>
 </head>
 
 
 <body>
-    <h1>Drug and Alcohol Use</h1>
-
-    <div>
-        <div id='drug-selector'></div>
-        <h3>Drug Use</h3>
-        <div id="drug_use"></div>
+    <div class='header'>
+        <div class="title">Drug and Alcohol Use</div>
     </div>
 
+    <section>
+        <div class="container-fluid">
+            <div class='row'>
+                <div class='drug-select'>
+                    <div id='drug-selector'></div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class='row'>
+                    <div class='col-xs-12 col-md-5'>
+                        <div class='container-use'>
+                            <h3>Drug Use</h3>
+                            <div id="drug_use"></div>
+                            <div class='use-label'>
+                                <p>Bar chart that shows percentage of those in an age group who used in the past 12 months</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='col-xs-12 col-md-5'>
+                        <div class='container-frequency'>
+                            <h3>Drug Frequency</h3>
+                            <div id="drug_frequency"></div>
+                            <div class='frequency-label'>
+                                <p>Bar chart that shows the median number of times a user in an age group used in the past 12 months</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class='row'>
+                <div class 'col-xs-12 col-md-5'>
+                    <div class='container-alcohol-marijuana'>
+                        <div id='scatter_plot_alcohol_marijuana'>
+                            <div class='scatter-plot-alcohol-marijuana-label'>
+                                <h4>Scatter plot to show the correlation between use and frequency in the two most used substances</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='container-other-drugs'>
+                    <div id='scatter_plot_other_drugs'>
+                        <div class='scatter-plot-other-drugs-label'>
+                            <h4>Scatter plot to show the correlation between use and frequency in all other drugs</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-xs-4'>
+                <div class='scatter-plot-alcohol-marijuana-colors'>
+                    <ul>
+                        <li>Alcohol - Red</li>
+                        <li>Marijuana - Green</li>
+                    </ul>
+                    <p>A scatter plot to see the correlation between the two most used substances, alcohol and marijuana. It appears that the increase in frequency is linked to the increase in use. Alcohol is not used as much but shows a higher frequency
+                        in use</p>
+                </div>
+            </div>
+            <div class='col-xs-offset-8'>
+                <div class='scatter-plot-other-colors'>
+                    <ul>
+                        <li>Cocaine - Grey</li>
+                        <li>Crack - Brown</li>
+                        <li>Heroin - Black</li>
+                        <li>Hallucinogen - Purple</li>
+                        <li>Inhalant - Yellow</li>
+                        <li>Pain-reliever - Orange</li>
+                        <li>Oxycontin - Pink</li>
+                        <li>Tranquilizer - Blue</li>
+                        <li>Stimulant - Silver</li>
+                        <li>Meth - Gold</li>
+                        <li>Sedative - Aqua</li>
+                    </ul>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='facts-section'>
+                    <ul>
+                        <li>Alcohol and marijuana were the most commonly used drugs among all age groups followed by pain-relievers</li>
+                        <li>Aged 50 to 64 have lower rates of drug use overall</li>
+                        <li>The frequency of alcohol is most likely due to the fact that people default to saying they drink alcohol about once a week</li>
+                        <li>People who used cocaine reported using it on twice as many days in the previous year as 35 to 49 year-olds (36 days versus 15) and more than quadruple the number of days as any other age group</li>
+                        <li>The reasons for drug use are different among an older population than younger users, regardless of generation. Researchers say that for older people, it’s less about getting high and more about coping with chronic pain, loss, social
+                            isolation or the effects of aging on the brain</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div>
 
-        <h3 "style:inline-block">Drug Frequency</h3>
-        <div id="drug_frequency"></div>
-    </div>
-
+    <footer>
+        <p> 2012 survey on drug use from the federal Substance Abuse and Mental Health Data Archive (SAMHDA) </p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.min.js"></script>

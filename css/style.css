@@ -1,3 +1,98 @@
-.drug_chart{
-  display:inline-block;
+/*navbar*/
+
+.header {
+    background-color: #4d88ff;
+}
+
+.title {
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #ffffff;
+    border: 2px solid #000000;
+}
+
+section {
+    background-image: url(/css/images/contrast-very-background-vivid-colours-white-left-medical-123462.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.drug-select {
+    padding-top: 15px;
+}
+
+.container-use {
+    padding: 10px;
+}
+
+.container-frequency {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.use-label {
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.frequency-label {
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+.container-alcohol-marijuana {
+    padding-left: 2%;
+}
+
+.scatter-plot-alcohol-marijuana-label {
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+
+}
+
+.container-other-drugs {
+    padding: 10px;
+}
+
+.scatter-plot-other-drugs-label {
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.scatter-plot-alcohol-marijuana-colors {
+    padding: 10px;
+    font-size: 18px;
+
+}
+.scatter-plot-alcohol-marijuana-colors p{
+    font-size: 12px;
+}
+
+.scatter-plot-colors {
+    margin: 10px;
+    font-size: 18px;
+    text-align: right;
+
+}
+
+.facts-section {
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+footer {
+    position: relative;
+    background-color: #4d88ff;
+    border: 2px solid #000000;
+    text-align: right;
 }
